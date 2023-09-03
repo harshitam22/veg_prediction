@@ -30,3 +30,6 @@ def predict():
     print(prediction)
 
     return str(np.round(prediction[0][0],2))
+
+if __name__ == "__main__":
+    app.run(debug=False , host='0.0.0.0')
